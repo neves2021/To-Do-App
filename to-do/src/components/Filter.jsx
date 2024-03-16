@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const Filter = ({ filter, setFilter, setSort }) => {
   return (
     <div className="filter">

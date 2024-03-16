@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 import React from "react";
 
 const Todo = ({ todo, removeTodo, completeTodo }) => {
@@ -15,7 +17,7 @@ const Todo = ({ todo, removeTodo, completeTodo }) => {
           Complete
         </button>
         <button className="remove" onClick={() => removeTodo(todo.id)}>
-          ❌
+          X
         </button>
       </div>
     </div>
